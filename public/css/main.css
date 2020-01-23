@@ -1,0 +1,462 @@
+html{
+    font-family: "Roboto";
+    font-size: 18px;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+}
+
+.button{
+    background: #AB836F;
+    width: 170px;
+    padding: 3vh;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1{
+    position: absolute;
+    bottom: 25vh;
+    left: 5%;
+    font-size: 90px;
+    width: 39%;
+}
+
+h2{
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h3{text-transform: uppercase;}
+
+.container{
+    margin: 10% 5%;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+/* NAV */
+
+.navigation{
+    display: flex;
+    margin: 2% 5%;
+}
+
+.navigation-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation-list li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-list li:not(:last-child){
+    margin-right: 5%;
+}
+
+.nav-item-contact{
+    background: #AB836F;
+    padding: 3vh;
+    border: none;
+}
+
+.navigation-list .nav-item-contact a{
+    color: white;
+}
+
+/* COVER */
+.cover{
+    background-image: url('../img/20190702_Schilde_006_groot.jpg');
+    width: 90%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    margin-top: 2%;
+}
+
+.cover h1{
+    color: white;
+}
+
+.cover .info{
+    background: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.cover .info .infoDiv{
+    width: 28%;
+    padding: 2%;
+}
+
+.infoDiv-kop{
+    text-transform: uppercase;
+    color: #888888;
+
+}
+
+.cover button{
+    position: absolute;
+    bottom: 20vh;
+    left: 5%;
+    background: white;
+}
+
+/* Section 1 */
+.section-dereep{
+    display: flex;
+}
+
+.section-dereep article{
+    width: 50%;
+}
+
+.section-dereep article:first-child{
+    padding-right: 15%;
+}
+
+.section-dereep-tekst{
+    width: 100%;
+}
+
+.section-dereep-side p{
+    border-left: 1px solid black;
+    padding-left: 5%;
+    width: 60%;
+}
+
+.section-dereep-side img{
+    background-image: url('../img/20190702_Schilde_007_groot.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 28vw;
+}
+
+.section-dereep table{
+    margin-top: 15%;
+}
+
+.section-dereep table tr{
+    display: flex;
+}
+
+.section-dereep table tr td{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10vw;
+    padding: 2%;
+}
+
+.section-dereep table tr td img{
+    width: 48px;
+}
+
+.section-dereep table .tableName{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.section-dereep table .tableValue{
+    margin: 0;
+}
+
+/* Section 2 */
+
+.section2-kop{
+    display: flex;
+}
+.section2-kop h2{
+    width: 120%;
+}
+
+.section-troevenproject{
+    display: flex;
+    width: 100%;
+}
+.section-troevenproject img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.section-troevenproject article:not(:last-child){
+    margin-right: 2%;
+}
+
+.section-troevenproject article{
+    position: relative;
+}
+
+.section-troevenproject article span{
+    background: white;
+    position: absolute;
+    width: 65%;
+    padding: 5%;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Section 3 */
+.section3{
+    background: #AB836F;
+    color: white;
+    display: flex;
+    padding: 7% 5%;
+    margin: 0;
+}
+
+.section3 p{
+    width: 85%;
+}
+
+.section3 button{
+    background: white;
+    margin-top: 10%;
+}
+
+.section3 img{
+    width: 60%;
+}
+
+.section3 span{
+    padding-left: 4%;
+    padding-right: 3%;
+}
+
+/* Section 4 */
+.section4{
+    background-image: url('../img/plan.jpg');
+    width: 90%;
+    height: 120vh;
+    background-size: cover;
+    position: relative;
+}
+
+.section4 .section-huis h2{
+    margin-top: 10%;
+}
+
+.section4 .section-huis article{
+    background: rgba(255,255,255,0.7);
+    border: 1px black solid;
+    width: 40%;
+    height: 120vh;
+    position: absolute;
+    right: 0;
+    top: -3%;
+    padding: 2%;
+}
+
+.section4 .section-huis article img{
+    width: 100%;
+}
+
+/*Contact*/
+.contact{
+    position: relative;
+}
+
+.contact form{
+    background: #AB836F;
+    width: 60%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.contact form input,
+.contact form textarea{
+    width: 50%;
+    margin-top: 3%;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact form input:first-child{
+    margin-top: 0;
+}
+
+.contact form input{
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+}
+
+.contact form input:focus,
+.contact form textarea:focus{
+    outline-width: 0;
+}
+
+.contact form textarea{
+    height: 50%;
+    border: 2px solid white;
+    background: none;
+    padding: 1%;
+}
+
+.contact button{
+    background: white;
+    margin-top: 2%;
+
+}
+
+.contact img{
+    width: 50%;
+    height: 95%;
+    object-fit: cover;
+    position: absolute;
+    right: 0%;
+    top: -3%;
+}
+
+/* Footer */
+.footer .footer-tekst{
+    display: flex;
+}
+
+.footer .footer-tekst p:not(:last-child){
+    margin-right: 10%;
+}
+
+.footer .footer-last{
+    text-align: center;
+    width: 41%;
+    margin: 3% auto;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px){
+
+    h1 {
+        font-size: 79px;
+        width: 100%;
+        bottom: 37vh;
+    }
+
+    .navigation img{
+        width: 13%;
+        height: 13%;
+        margin: auto 0;
+    }
+
+    .cover .info {
+        width: 100%;
+    }
+
+    .cover button {
+        bottom: 30vh;
+        left: 6%;
+    }
+
+    .section-troevenproject {
+        flex-direction: column;
+    }
+
+    .section2-kop{
+        flex-direction: column;
+    }
+
+    .section2-kop h2 {
+        width: unset;
+    }
+
+    .section-dereep{
+        flex-direction: column;
+    }
+
+    .section-dereep article{
+        width: 100%;
+    }
+
+    .section-dereep-side img {
+        height: 65vh;
+    }
+
+    .section-dereep table{
+        width: 100%;
+    }
+
+    .section-dereep table tr td {
+        width: 100%;
+    }
+
+    .section-dereep-side p{
+        margin-top: 20%;
+    }
+
+    .section3 {
+        flex-direction: column;
+    }
+
+    .section3 p{
+        width: 100%;
+    }
+
+    .section3 img {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .section4 .section-huis article {
+        background: rgba(255,255,255,0.7);
+        border: 1px black solid;
+        width: 92%;
+        position: unset;
+        left: unset;
+        bottom: unset;
+        height: 115vh;
+        padding: 4%;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        width: 100%;
+    }
+
+    .contact form {
+        width: 80%;
+        justify-content: center;
+    }
+
+
+    .contact img {
+        width: 100%;
+        height: 100vw;
+        object-fit: cover;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+
+    .footer .footer-tekst {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .footer-tekst p:not(:last-child) {
+        margin-right: 0;
+    }
+}
