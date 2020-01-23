@@ -1,7 +1,7 @@
 {{-- Cover --}}
 <div class="cover container">
     <h1>Wonen in een nieuwe buurt</h1>
-    <button class="button">Contacteer ons</button>
+    <button class="button"><a href="#Contact">Contacteer ons</a></button>
     <section class="info">
         <article class="infoDiv">
             <p class="infoDiv-kop">Adres</p>
@@ -58,6 +58,7 @@
 <div class="container section2" id="Section2">
     <div class="section2-kop">
         <h2>Troeven project</h2>
+        <div class="horizontalline"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis augue eget leo dapibus, vitae interdum lectus vehicula.</p>
     </div>
     <section class="section-troevenproject">
@@ -90,7 +91,7 @@
     <span>
         <h2>De Reep uitgelicht</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis augue eget leo dapibus, vitae interdum lectus vehicula. Aenean velit diam, condimentum in scelerisque a, dignissim nec enim. Nam eget sapien sed nibh efficitur lacinia vulputate et ante. Praesent cursus elit ut urna venenatis volutpat. Maecenas pellentesque a purus et placerat. Pellentesque efficitur. Lorem.</p>
-        <button class="button">Contacteer ons</button>
+        <button class="button"><a href="#Contact">Contacteer ons</a></button>
     </span>
     <img src="{{ URL::asset('img/20170315_05_S.jpg') }}">
 </div>
@@ -106,7 +107,7 @@
                 Dolor sit amet, consectetur adipiscing elit. Praesent convallis augue eget leo dapibus, vitae interdum lectus vehicula. Aenean velit diam, condimentum in scelerisque a, dignissim nec enim. Nam eget sapien sed nibh efficitur lacinia vulputate et ante. Praesent cursus elit ut urna venenatis volutpat. Maecenas pellentesque a purus et placerat. Pellentesque efficitur.
             </p>
             <button class="button">Download Plan</button>
-            <button class="button">Contacteer Ons</button>
+            <button class="button"><a href="#Contact">Contacteer Ons</a></button>
         </article>
     </section>
 </div>
